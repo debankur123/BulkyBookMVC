@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxGb3vuJhvU+JnxrYXF7DPQAAAAACAAAAAAAQZgAAAAEAACAAAADDBUGJPCtt/VSjR3+Pg+fhbLnbjIDeYKwcuD1BOChnogAAAAAOgAAAAAIAACAAAAB/4azByUvuNsp/wNOPMDogy8InYQpjeFlVzHMaBhwb0oAAAADPhyf2YNPjrMlootE9AakUZhS7tKr71bgtzd6RegvG+oT+7eRTCOnLerwLf26CE6IM9p9DJe8f5locXW3OTtl6IFXNKJc8vTfUBBpHyn1JNT7YYcAnfmRwbRoXRVj9C2t4YkKRYI3pU6ZZsuRwlXCNmCK6LZaD8kZaGPr7iClsiUAAAABlVUmu0Ny9GK2KTOlHZb5YIsydtYC+0L3ZjNC0ETtUEihDvG+YXh4wHRtyV6YQrk5XGOHZBmFCkCH+jlYcRHqF</EncryptedPassword>
+    <History>True|2022-11-04T16:15:10.8456533Z;False|2022-11-04T21:38:18.0006560+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:debankur-local-server.database.windows.net,1433%3bInitial Catalog=debankur_db%3bPersist Security Info=False%3bUser ID=debankur-local-server%3bPassword=azure%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBook.Data.AppDbContext">
+      <Value>Server=tcp:debankur-local-server.database.windows.net,1433%3bInitial Catalog=debankur_db%3bPersist Security Info=False%3bUser ID=debankur-local-server%3bPassword=azure%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
